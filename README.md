@@ -53,3 +53,27 @@ class Program
         Console.WriteLine(opel.year);
     }
 }
+
+
+using System;
+
+class MyClass
+{
+    string color = "red";
+    int maxSpeed = 200;
+
+    public void FullThrottle()
+    {
+        Console.WriteLine("The car is going as fast as it can!");
+    }
+
+    static void Main(string[] args)
+    {
+        MyClass myObj = new MyClass();
+
+        Console.WriteLine(myObj.color);
+        Console.WriteLine(myObj.maxSpeed);
+
+        myObj.FullThrottle();
+    }
+}
